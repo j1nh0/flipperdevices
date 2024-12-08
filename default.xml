@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <!--DEFINITIONS-->
+ <!--ORIGIN-->
+ <remote name="origin"			fetch=".."			revision="main"/>
+ <!--GITHUB-->
+ <remote name="github"			fetch="https://github.com"/>
+ <remote name="githubmain"		fetch="https://github.com"	revision="main"/>
+ <remote name="githubmaster"		fetch="https://github.com"	revision="master"/>
+ <remote name="githubdev"		fetch="https://github.com"	revision="dev"/>
+ <remote name="githubdevelopment"	fetch="https://github.com"	revision="development"/>
+ <!--FLIPPER-->
+ <project name="flipperdevices/flipperzero-firmware"			path="flipperzero-firmware"									remote="githubdev"/>
+ <project name="flipperdevices/flipperzero-protobuf"			path="flipperzero-firmware/assets/protobuf"							remote="githubdev"/>
+ <project name="jothepro/doxygen-awesome-css"				path="flipperzero-firmware/documentation/doxygen/doxygen-awesome-css"				remote="githubmain"/>
+ <project name="FreeRTOS/FreeRTOS-Kernel"				path="flipperzero-firmware/lib/FreeRTOS-Kernel"							remote="githubmain"/>
+ <project name="FreeRTOS/FreeRTOS-Kernel-Community-Supported-Ports"	path="flipperzero-firmware/lib/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports"	remote="githubmain"/>
+ <project name="FreeRTOS/FreeRTOS-Kernel-Partner-Supported-Ports"	path="flipperzero-firmware/lib/FreeRTOS-Kernel/portable/ThirdParty/Partner-Supported-Ports"	remote="githubmain"/>
+ <project name="robotpy/cxxheaderparser"				path="flipperzero-firmware/lib/cxxheaderparser"							remote="githubmain"/>
+ <project name="flipperdevices/heatshrink"				path="flipperzero-firmware/lib/heatshrink"							remote="githubmaster"/>
+ <project name="flipperdevices/libusb_stm32"				path="flipperzero-firmware/lib/libusb_stm32"							remote="githubmaster"/>
+ <project name="littlefs-project/littlefs"				path="flipperzero-firmware/lib/littlefs"							remote="githubmaster"/>
+ <project name="Mbed-TLS/mbedtls"					path="flipperzero-firmware/lib/mbedtls"								remote="githubdevelopment"/>
+ <project name="Mbed-TLS/mbedtls-framework"				path="flipperzero-firmware/lib/mbedtls/framework"						remote="githubmain"/>
+ <project name="amachronic/microtar"					path="flipperzero-firmware/lib/microtar"							remote="githubmaster"/>
+ <project name="P-p-H-d/mlib"						path="flipperzero-firmware/lib/mlib"								remote="githubmaster"/>
+ <project name="nanopb/nanopb"						path="flipperzero-firmware/lib/nanopb"								remote="githubmaster"/>
+ <project name="STMicroelectronics/cmsis_device_wb"			path="flipperzero-firmware/lib/st_cmsis_device_wb"						remote="githubmaster"/>
+ <project name="flipperdevices/stm32wb_copro"				path="flipperzero-firmware/lib/stm32wb_copro"							remote="githubdev"/>
+ <project name="flipperdevices/stm32wb_copro_scripts"			path="flipperzero-firmware/lib/stm32wb_copro/scripts"						remote="githubdev"/>
+ <project name="STMicroelectronics/stm32wbxx_hal_driver"		path="flipperzero-firmware/lib/stm32wbxx_hal_driver"						remote="githubmaster"/>
+</manifest>
